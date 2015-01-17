@@ -10,4 +10,8 @@ import UIKit
 
 @objc class SwiftController: UIViewController {
 
+    override func viewDidLoad() {
+        print("Swift Controller")
+    }
+    
 }

@@ -36,10 +36,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Swift Controller-->
         <scene sceneID="hjf-nR-6fm">
             <objects>
-                <viewController id="B6a-ce-DYE" sceneMemberID="viewController">
+                <viewController id="B6a-ce-DYE" customClass="SwiftController" customModule="ios_objc_mix" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hK2-LR-OCs"/>
                         <viewControllerLayoutGuide type="bottom" id="zLi-ep-9jj"/>
