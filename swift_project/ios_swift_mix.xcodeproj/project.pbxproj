@@ -12,6 +12,7 @@
 		6DFFCEDB1A6A6B5200EB5B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DFFCED91A6A6B5200EB5B6A /* Main.storyboard */; };
 		6DFFCEDD1A6A6B5200EB5B6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DFFCEDC1A6A6B5200EB5B6A /* Images.xcassets */; };
 		6DFFCEE01A6A6B5200EB5B6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DFFCEDE1A6A6B5200EB5B6A /* LaunchScreen.xib */; };
+		6DFFCEFE1A6A7C7B00EB5B6A /* ObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFFCEFD1A6A7C7B00EB5B6A /* ObjCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		6DFFCEDA1A6A6B5200EB5B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DFFCEDC1A6A6B5200EB5B6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6DFFCEDF1A6A6B5200EB5B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6DFFCEFB1A6A7C7B00EB5B6A /* ios_swift_mix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios_swift_mix-Bridging-Header.h"; sourceTree = "<group>"; };
+		6DFFCEFC1A6A7C7B00EB5B6A /* ObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCViewController.h; sourceTree = "<group>"; };
+		6DFFCEFD1A6A7C7B00EB5B6A /* ObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,9 @@
 				6DFFCEDC1A6A6B5200EB5B6A /* Images.xcassets */,
 				6DFFCEDE1A6A6B5200EB5B6A /* LaunchScreen.xib */,
 				6DFFCED31A6A6B5200EB5B6A /* Supporting Files */,
+				6DFFCEFC1A6A7C7B00EB5B6A /* ObjCViewController.h */,
+				6DFFCEFD1A6A7C7B00EB5B6A /* ObjCViewController.m */,
+				6DFFCEFB1A6A7C7B00EB5B6A /* ios_swift_mix-Bridging-Header.h */,
 			);
 			path = ios_swift_mix;
 			sourceTree = "<group>";
@@ -144,6 +151,7 @@
 			files = (
 				6DFFCED81A6A6B5200EB5B6A /* ViewController.swift in Sources */,
 				6DFFCED61A6A6B5200EB5B6A /* AppDelegate.swift in Sources */,
+				6DFFCEFE1A6A7C7B00EB5B6A /* ObjCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,9 +260,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ios_swift_mix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios_swift_mix/ios_swift_mix-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,9 +273,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ios_swift_mix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios_swift_mix/ios_swift_mix-Bridging-Header.h";
 			};
 			name = Release;
 		};
