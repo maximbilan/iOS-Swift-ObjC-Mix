@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D5DABCF1A77F51700528700 /* ObjCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DABCE1A77F51700528700 /* ObjCObject.m */; };
 		6DFFCEA41A6A6A9E00EB5B6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFFCEA31A6A6A9E00EB5B6A /* main.m */; };
 		6DFFCEA71A6A6A9E00EB5B6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFFCEA61A6A6A9E00EB5B6A /* AppDelegate.m */; };
 		6DFFCEAA1A6A6A9E00EB5B6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFFCEA91A6A6A9E00EB5B6A /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D5DABCD1A77F51700528700 /* ObjCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCObject.h; sourceTree = "<group>"; };
+		6D5DABCE1A77F51700528700 /* ObjCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCObject.m; sourceTree = "<group>"; };
 		6DFFCE9E1A6A6A9D00EB5B6A /* ios_objc_mix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_objc_mix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFFCEA21A6A6A9E00EB5B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DFFCEA31A6A6A9E00EB5B6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				6DFFCEA61A6A6A9E00EB5B6A /* AppDelegate.m */,
 				6DFFCEA81A6A6A9E00EB5B6A /* ViewController.h */,
 				6DFFCEA91A6A6A9E00EB5B6A /* ViewController.m */,
+				6D5DABCD1A77F51700528700 /* ObjCObject.h */,
+				6D5DABCE1A77F51700528700 /* ObjCObject.m */,
 				6DFFCEAB1A6A6A9E00EB5B6A /* Main.storyboard */,
 				6DFFCEAE1A6A6A9E00EB5B6A /* Images.xcassets */,
 				6DFFCEB01A6A6A9E00EB5B6A /* LaunchScreen.xib */,
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D5DABCF1A77F51700528700 /* ObjCObject.m in Sources */,
 				6DFFCEAA1A6A6A9E00EB5B6A /* ViewController.m in Sources */,
 				6DFFCEFA1A6A766100EB5B6A /* SwiftController.swift in Sources */,
 				6DFFCEA71A6A6A9E00EB5B6A /* AppDelegate.m in Sources */,

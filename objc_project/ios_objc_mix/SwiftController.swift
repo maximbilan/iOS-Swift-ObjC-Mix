@@ -12,6 +12,14 @@ import UIKit
 
     override func viewDidLoad() {
         print("Swift Controller")
+		
+		let mutableArray = ObjCObject.arrayOfObjects()
+		let obj: AnyObject = mutableArray.objectAtIndex(0)
+		let objcObj = obj as ObjCObject
+		
+		println(obj)
+		println("----")
+		println(objcObj)
     }
     
 }
