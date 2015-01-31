@@ -12,9 +12,11 @@ Create the <i>Obj C</i> project.
 And create new <i>Swift</i> class. For example, <i>UIViewController</i>:<br>
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/1.png)
 <br>
+<br>
 After that, you will see the following popup message:
 <br>
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/2.png)
+<br>
 <br>
 Please, choose <i>‘Yes’</i>.
 
