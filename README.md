@@ -42,11 +42,11 @@ import UIKit
 </pre>
 <br>
 2. <i>Defines module</i> set to <i>‘YES’</i>:<br>
-![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/4.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/4.png)<br><br>
 3. <i>Embedded Content Contains Swift</i> set to <i>‘YES’</i>:<br>
-![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/5.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/5.png)<br><br>
 4. After that you should found the <i>Product Module Name</i> in your target settings:<br>
-![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/6.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/6.png)<br><br>
 5. And please include header for swift compatibility for example to pch file.<br>
 
 <pre>
