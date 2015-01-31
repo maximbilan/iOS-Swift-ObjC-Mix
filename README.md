@@ -10,11 +10,11 @@ Let’s start from <i>Obj C</i> project, and will try to add swift code to this 
 Create the <i>Obj C</i> project.
 
 And create new <i>Swift</i> class. For example, <i>UIViewController</i>:<br>
-![alt tag](1.png)
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/1.png)
 <br>
 After that, you will see the following popup message:
 <br>
-![alt tag](2.png)
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/2.png)
 <br>
 Please, choose <i>‘Yes’</i>.
 
@@ -40,11 +40,11 @@ import UIKit
 </pre>
 <br>
 2. <i>Defines module</i> set to <i>‘YES’</i>:<br>
-![alt tag](4.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/4.png)<br>
 3. <i>Embedded Content Contains Swift</i> set to <i>‘YES’</i>:<br>
-![alt tag](5.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/5.png)<br>
 4. After that you should found the <i>Product Module Name</i> in your target settings:<br>
-![alt tag](6.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/6.png)<br>
 5. And please include header for swift compatibility for example to pch file.<br>
 
 <pre>
@@ -72,22 +72,22 @@ import UIKit
 And now you can use <i>Swift</i> code☺
 
 Please, see the example on <a href="https://github.com/maximbilan/ios_swift_objc_mix">github</a>.<br>
-![alt tag](8.png)<br>
-![alt tag](9.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/8.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/9.png)<br>
 <b>Note:</b> ios_objc_mix-Swift.h file you can’t find in your project browser ☹ Xcode automatically generates this header. Magic!
 
 <b>Note:</b> if you have a lot of targets in your project. It really is a pain. You should import magic Product-module-name-Swift.h headers for each target.
 
 <b>Note:</b> if you use <i>Swift</i> classes in the <i>Interface Builder</i>, you should setup the module.<br>
-![alt tag](10.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/10.png)<br>
 <b>Obj C code in Swift project</b>
 
 It’s similar process. And simpler.
 
 Add <i>Obj C</i> file to project.<br>
-![alt tag](11.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/11.png)<br>
 And also please choose <i>‘YES’</i>:<br>
-![alt tag](12.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/12.png)<br>
 Include our <i>Obj C</i> View Controller to bridging header:<br>
 <pre>
 //
@@ -100,6 +100,6 @@ Include our <i>Obj C</i> View Controller to bridging header:<br>
 And that’s all.
 
 You also you can found example on <a href="https://github.com/maximbilan/ios_swift_objc_mix"> github</a>.<br>
-![alt tag](14.png)<br>
-![alt tag](15.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/14.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_calendar/master/img/15.png)<br>
 Hopefully this will save time for someone. Don’t forget star the github repository☺
