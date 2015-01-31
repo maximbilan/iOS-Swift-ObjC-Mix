@@ -20,7 +20,7 @@ After that, you will see the following popup message:
 <br>
 Please, choose <i>‘Yes’</i>.
 
-Now, you have ios_objc_mix-Bridging-Header.h file. In this header you can import source files for your Swift class.
+Now, you have <i>ios_objc_mix-Bridging-Header.h</i> file. In this header you can import source files for your <i>Swift</i> class.
 
 After that, you can do the next steps.<br>
 <br>
