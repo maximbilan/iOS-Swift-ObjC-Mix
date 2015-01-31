@@ -75,13 +75,13 @@ And now you can use <i>Swift</i> code☺
 
 Please, see the example on <a href="https://github.com/maximbilan/ios_swift_objc_mix">github</a>.<br>
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/8.png)<br>
-![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/9.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/9.png)<br><br>
 <b>Note:</b> ios_objc_mix-Swift.h file you can’t find in your project browser ☹ Xcode automatically generates this header. Magic!
 
 <b>Note:</b> if you have a lot of targets in your project. It really is a pain. You should import magic Product-module-name-Swift.h headers for each target.
 
 <b>Note:</b> if you use <i>Swift</i> classes in the <i>Interface Builder</i>, you should setup the module.<br>
-![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/10.png)<br>
+![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/10.png)<br><br>
 <b>Obj C code in Swift project</b>
 
 It’s similar process. And simpler.
