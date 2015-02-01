@@ -63,8 +63,8 @@ import UIKit
 //
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+    #import &#60;UIKit/UIKit.h&#62;
+    #import &#60;Foundation/Foundation.h&#62;
 #endif
 
 #import "ios_objc_mix-Swift.h"
