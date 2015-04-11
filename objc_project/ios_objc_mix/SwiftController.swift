@@ -15,7 +15,7 @@ import UIKit
 		
 		let mutableArray = ObjCObject.arrayOfObjects()
 		let obj: AnyObject = mutableArray.objectAtIndex(0)
-		let objcObj = obj as ObjCObject
+		let objcObj = obj as! ObjCObject
 		
 		println(obj)
 		println("----")
