@@ -20,6 +20,18 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+//- (void)viewDidAppear:(BOOL)animated
+//{
+//	[super viewDidAppear:animated];
+//	
+//	Class class = NSClassFromString(@"SwiftController");
+//	if (!class) {
+//		class = [NSObject swiftClassFromString:@"SwiftController"];
+//	}
+//	UIViewController *viewController = [[class alloc] init];
+//	[self presentViewController:viewController animated:YES completion:nil];
+//}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
