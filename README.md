@@ -3,7 +3,7 @@ Mixing Swift and Obj C code in the same project
 
 Yes, there is opportunity to combine this languages in the same project. It’s great. Apple provides a tutorial how to do this magic. You can found <a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html">here</a>. But in spite of it I would like to share my experience on real examples, because it’s not so simple as it says.
 
-<b>Swift code in Obj C project</b>
+## Swift code in Obj C project
 
 Let’s start from <i>Obj C</i> project, and will try to add swift code to this project.
 
@@ -82,7 +82,7 @@ Please, see the example on <a href="https://github.com/maximbilan/ios_swift_objc
 
 <b>Note:</b> if you use <i>Swift</i> classes in the <i>Interface Builder</i>, you should setup the module.<br>
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/10.png)<br><br>
-<b>Obj C code in Swift project</b>
+## Obj C code in Swift project
 
 It’s similar process. And simpler.
 
