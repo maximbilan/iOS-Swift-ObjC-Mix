@@ -10,7 +10,7 @@ import UIKit
 
 extension NSObject {
 	class func swiftClassFromString(className: String) -> AnyClass! {
-		if  var appName: String? = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleName") as! String? {
+		if  let appName: String? = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleName") as! String? {
 			let fAppName = appName!.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil)
 			return NSClassFromString("\(fAppName).\(className)")
 		}
@@ -21,15 +21,15 @@ extension NSObject {
 @objc class SwiftController: UIViewController {
 
     override func viewDidLoad() {
-        print("Swift Controller")
+        print("Swift Controller", terminator: "")
 		
 		let mutableArray = ObjCObject.arrayOfObjects()
 		let obj: AnyObject = mutableArray.objectAtIndex(0)
 		let objcObj = obj as! ObjCObject
 		
-		println(obj)
-		println("----")
-		println(objcObj)
+		print(obj)
+		print("----")
+		print(objcObj)
     }
     
 }
