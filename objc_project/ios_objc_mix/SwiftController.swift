@@ -9,13 +9,15 @@
 import UIKit
 
 extension NSObject {
+	
 	class func swiftClassFromString(_ className: String) -> AnyClass! {
-		if  let appName: String? = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as! String? {
-			let fAppName = appName!.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil)
+		if  let appName = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String {
+			let fAppName = appName.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil)
 			return NSClassFromString("\(fAppName).\(className)")
 		}
 		return nil;
 	}
+	
 }
 
 @objc class SwiftController: UIViewController {
