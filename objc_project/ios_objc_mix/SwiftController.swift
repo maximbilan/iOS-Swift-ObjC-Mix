@@ -9,9 +9,9 @@
 import UIKit
 
 extension NSObject {
-	class func swiftClassFromString(className: String) -> AnyClass! {
-		if  let appName: String? = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleName") as! String? {
-			let fAppName = appName!.stringByReplacingOccurrencesOfString(" ", withString: "_", options: NSStringCompareOptions.LiteralSearch, range: nil)
+	class func swiftClassFromString(_ className: String) -> AnyClass! {
+		if  let appName: String? = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as! String? {
+			let fAppName = appName!.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil)
 			return NSClassFromString("\(fAppName).\(className)")
 		}
 		return nil;
@@ -24,7 +24,7 @@ extension NSObject {
         print("Swift Controller", terminator: "")
 		
 		let mutableArray = ObjCObject.arrayOfObjects()
-		let obj: AnyObject = mutableArray.objectAtIndex(0)
+		let obj: AnyObject = mutableArray!.object(at: 0) as AnyObject
 		let objcObj = obj as! ObjCObject
 		
 		print(obj)
