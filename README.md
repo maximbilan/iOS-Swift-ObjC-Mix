@@ -101,7 +101,7 @@ Include our <i>Obj C</i> View Controller to bridging header:<br>
 </pre>
 And that’s all.
 
-You also you can found example on <a href="https://github.com/maximbilan/ios_swift_objc_mix"> github</a>.<br>
+You also you can find example on <a href="https://github.com/maximbilan/ios_swift_objc_mix"> github</a>.<br>
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/14.png)<br>
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/15.png)<br><br>
 Hopefully this will save time for someone. Don’t forget star the github repository ☺
