@@ -1,4 +1,4 @@
-Mixing Swift and Obj C code in the same project
+An example of the mixing Swift and Obj C code in the same project
 ============
 
 Yes, there is opportunity to combine this languages in the same project. It’s great. Apple provides a tutorial how to do this magic. You can found <a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html">here</a>. But in spite of it I would like to share my experience on real examples, because it’s not so simple as it says.
