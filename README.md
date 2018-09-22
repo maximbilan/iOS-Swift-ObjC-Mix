@@ -47,7 +47,7 @@ import UIKit
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/5.png)<br><br>
 4. After that you should found the <i>Product Module Name</i> in your target settings:<br>
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/6.png)<br><br>
-5. And please include header for <i>Swift</i> compatibility for example to pch file.<br>
+5. And please include a header for <i>Swift</i> compatibility for example to a pch file.<br>
 
 <pre>
 #import “Product Module Name-Swift.h”
@@ -80,11 +80,11 @@ Please, see the example on <a href="https://github.com/maximbilan/ios_swift_objc
 
 <b>Note:</b> if you have a lot of targets in your project. It really is a pain. You should import magic Product-module-name-Swift.h headers for each target.
 
-<b>Note:</b> if you use <i>Swift</i> classes in the <i>Interface Builder</i>, you should setup the module.<br>
+<b>Note:</b> if you use <i>Swift</i> classes in the <i>Interface Builder</i>, you should set up the module.<br>
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/10.png)<br><br>
 ## Obj C code in Swift project
 
-It’s similar process. And simpler.
+It’s a similar process. And simpler.
 
 Add <i>Obj C</i> file to project.<br>
 ![alt tag](https://raw.github.com/maximbilan/ios_swift_objc_mix/master/img/11.png)<br>
